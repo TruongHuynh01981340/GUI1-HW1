@@ -1,0 +1,44 @@
+/*
+File: index.css
+GUI Assignment: Creating Your First Web Page
+Truong-Thinh Huynh, UMass Lowell Computer Science, TruongThinh_Huynh@student.uml.edu
+Copyright (c) 2024 by Truong-Thinh. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by WZ on July 7, 2021 at 9:23 AM
+
+Simple css to change color in my table and words.
+*/
+
+/*
+    A table that shows a thin border but the border is collapse, meaning it only shows one
+    line per box.
+*/
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+/*
+    Change the background of the first row ONLY on the table
+*/
+tr:first-child {
+    background-color: lightblue;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+/*
+    Thin border for the image
+*/
+img {
+    border: 1px solid black;
+}
+            
